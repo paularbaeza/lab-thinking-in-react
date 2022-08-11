@@ -21,6 +21,9 @@ function SearchBar(props) {
           name="search"
           onChange={handleSearch}
         />
+        <br /> 
+        <input type="checkbox" /> 
+        <label htmlFor="checkbox">Only search for products in stock</label>
       </form>
     </div>
   );
