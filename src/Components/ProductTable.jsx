@@ -2,7 +2,7 @@ import ProductRow from './ProductRow';
 
 function ProductTable(props) {
   console.log(props);
-  const { products } = props;
+  const {products } = props;
 
   return (
     <div id="table">
